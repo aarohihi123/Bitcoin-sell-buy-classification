@@ -1,6 +1,6 @@
 # 👊 Project Overview
 
-This notebook performs Bitcoin price prediction and signal generation using technical indicators and machine learning with XGBoost. The approach is focused on binary classification: predicting whether a price condition (like being overbought) is met.
+This notebook performs Bitcoin prediction (Sell or Buy) and signal generation using technical indicators and machine learning with XGBoost. The approach is focused on binary classification: predicting whether a price condition (like being overbought) is met.
 
 ---
 
