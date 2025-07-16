@@ -20,17 +20,15 @@ This notebook performs Bitcoin price prediction and signal generation using tech
 
 ## 3. Target Variable Construction
 Defined a binary classification target using multiple approaches:
-
-- **Approach 1**: Price increase over next 5 days  
-  `Target = (Close.shift(-5) > Close)`
-
-- **Approach 2**: Overbought condition  
+- **Approach 1**: Overbought condition  
   `Target = (RSI > 70) or (Price > Upper Bollinger Band)`
+- **Approach 2**: Price increase over next 5 days  
+  `Target = (Close.shift(-5) > Close)`
 
 - **Approach 3**: Price drop threshold  
   `Target = (pct_change_5days < -5%)`
 
-➡️ **Final implementation used Approach 2** to detect overbought signals.
+➡️ **Final implementation used Approach 1** to detect overbought signals.
 
 ---
 
